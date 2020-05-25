@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20200423</CreaDate><CreaTime>10465100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\3D Analyst Tools.tbx\Plus" Date="20200423" Time="104651">Plus ..\input/Direct_infiltration\A_WL_Rast.asc ..\input/Direct_infiltration\OSDS_inlf_in.asc ..\input\Direct_infiltration\WLOSDrast</Process></lineage></DataProperties></Esri></metadata>
