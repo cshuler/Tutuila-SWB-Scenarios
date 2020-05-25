@@ -1,0 +1,3 @@
+open the arc map doc, save a jpeg with the new coverage off, and then one with it on, take both jpegs into this website and you have a gif!
+
+https://gifmaker.me/

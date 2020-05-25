@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20200504</CreaDate><CreaTime>08242200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\3D Analyst Tools.tbx\Plus" Date="20200504" Time="082422">Plus ..\Dynamic_input\MFR\MFR_Rast_L.asc ..\Dynamic_input\Direct_infiltration\WLOSDrast ..\Dynamic_input\Direct_infiltration\temprast2</Process></lineage></DataProperties></Esri></metadata>

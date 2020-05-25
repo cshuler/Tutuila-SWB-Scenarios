@@ -1,0 +1,7 @@
+Notes on Scenario expansion
+- created new road manually using slope map and tracing route with loewst slope. 
+- buffered ne road by 200m 
+- ran Arc GIS erase to exclude areas with more than 15deg slope to get areas of developable land
+
+- created 500x800 m square in present data leone and Maeloloa to replicate land use in that area 
+- intersecte dsquare and preset day land use
