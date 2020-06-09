@@ -179,21 +179,26 @@ Hattori)
 
 ### Model run instructions
 
-To run this code, the user should copy the entire repository, keeping the directory structure intact. GITHUB prevents large file uploads and also binary files to be included in the repository structure, and thus there are two files that the user will need to manually download from the github "releases" tab within this repository. These are: 
+To run this code, the user should copy the entire repository, keeping the directory structure intact. There are multiple versions of the model for different purposes. They are detailed below: 
 
-1) "Land_use_wRO_codes.shp" needs to be downloaded and then physically moved into to the "Raw_GIS_Data//Land_use" folder in the users copy of the project directory. 
+The model code is contained in a number of Jupyter Notebooks. These include:
+- A notebook that takes raw GIS data and formats the input for use in the SWB2 model. This is where the user can change the model cell size.   Note that only cell sizes of 50 m or more will create files that will fit on GitHub (<100mb)   (\Tutuila-SWB-Scenarios\New_Model_Runs\Run\Input_data_preparation.ipynb)
+- The calibrated model, run over multiple scenarios.  The base case uses the 1_Tutuila_cal_controlFile.ctl, each other scenario has a separate output workspace and a seperate control file (\Tutuila-SWB-Scenarios\New_Model_Runs\Run\SWB2_Tutuila_model_Runfinals_.ipynb
+- a notebook to compare the results from different scenarios (Tutuila-SWB-Scenarios\New_Model_Runs\Run\Scenario_comparison.ipynb)
+- All the files for model calibration to optimize curve numbers, includes A loopable version of the model  (Tutuila-SWB-Scenarios\Model_calibration\Run\SWB2_Tutuila_model_Calibration.ipynb)
+- All the files for sensitivity testing with the calibrated model, includes A loopable version of the model  (Tutuila-SWB-Scenarios\Sensitivity testing\Run\SWB2_sensitivity_testing.ipynb)
+- An older version which uses interpolation of runoff to rainfall ratios (Tutuila-SWB-Scenarios\Original_model\Run\SWB2_Tutuila_model.ipynb)
 
-2) "swb2.exe" needs to be downloaded and then physically moved into to the "Run" folder in the users copy of the project directory. .
+Also the developemt of new land use scenarios was done through Jupyter notebooks. These files are included in the following folders: 
+- Tutuila-SWB-Scenarios\Scripts_Scen1
+- Tutuila-SWB-Scenarios\Scripts_Scen2
+- Tutuila-SWB-Scenarios\Scripts_Scen3
 
+The scripts to actuall run the model are generally contained in the "Run" folder. Each version of the model generally also has an input folder where model inputs are accessed, and also an output or workspace folder where results are saved. Most scripts produce summarized output tables in .csv format from each model run in the output folder .\post_prcessed_with_MFR
 
-To run the model:
-The model code is contained in a Jupyter Notebook ("SWB2_Tutuila_model.ipynb") contained in the "SWB2-Tutuila/Model_workspace/Run/" folder. If the user wishes to run the model outside of an .ipynb format, the notebook is formatted as a single cell for easy copying to a .py file or other format. 
+When executed, the model will either create or overwrite the appropriate directory structure and will create output folders with model results in gridded and tabular summarized format, as well as figures in .tif format.
 
-Before running, ensure relative paths to the "Raw_GIS_Data" and "Std_input" folders are correct ensure the swb.exe executable file is installed in the same directory that contains this notebook ("SWB2-Tutuila/Model_workspace/Run/") ensure the control file "Tutuila200_controlFile.ctl" is also located in the "Run" folder.  When executed, the model will create the appropriate directory structure and will create output folders with model results in gridded and tabular summarized format, as well as figures in .tif format.
-
-The user needs to have all of the modules specified in the first code block installed within the active python environment. If any modules are not installed, the can be either downloaded from https://anaconda.org/conda-forge, or if using anaconda, the syntax to have anaconda perform the install can be typed into the conda command prompt.
-
-
+The user needs to have all of the modules specified in the first code block installed within the active python environment. If any modules are not installed, the can be either downloaded from https://anaconda.org/conda-forge, or if using anaconda, the syntax to have anaconda perform the install can be typed into the conda command prompt.  Note that this model also uses ArcPy which is a proprietary python module requireing the user has an ESRI ArcGIS license (sorry, I dislike ESRI's buisness model too).
 
 
 If you wish to contact the author I can be reached at cshuler@hawaii.edu
