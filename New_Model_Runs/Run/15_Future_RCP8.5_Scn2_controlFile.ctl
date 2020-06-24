@@ -24,7 +24,7 @@ BASE_PROJECTION_DEFINITION +proj=utm +zone=2 +south +ellps=WGS84 +datum=WGS84 +u
 ------------------------- 
  
 INTERCEPTION_METHOD              GASH 
-EVAPOTRANSPIRATION_METHOD        MONTHLY_GRID 
+EVAPOTRANSPIRATION_METHOD        HARGREAVES 
 RUNOFF_METHOD                    CURVE_NUMBER 
 SOIL_MOISTURE_METHOD             FAO-56 
 PRECIPITATION_METHOD             METHOD_OF_FRAGMENTS 
@@ -69,7 +69,7 @@ RAINFALL_ADJUST_FACTOR_MONTHNAMES_LOWERCASE
 (4) Monthly air temperature grids 
 ---------------------------------- 
  
-TMAX ARC_GRID ../input/Gridded_temps/prism_tmax_tutuila_30yr_normal_%0m.asc
+TMAX ARC_GRID ../input/Gridded_temps_RCP_RCP8p5/cchanged_maxt_rcp85_month_%m.asc 
 TMAX_GRID_PROJECTION_DEFINITION +proj=utm +zone=2 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs
 TMAX_SCALE_FACTOR                 1.8 
 TMAX_ADD_OFFSET                  32.0 
@@ -77,7 +77,7 @@ TMAX_MISSING_VALUES_CODE      -9999.0
 TMAX_MISSING_VALUES_OPERATOR      <= 
 TMAX_MISSING_VALUES_ACTION       mean 
  
-TMIN ARC_GRID ../input/Gridded_temps/prism_tmin_tutuila_30yr_normal_%0m.asc
+TMIN ARC_GRID ../input/Gridded_temps_RCP_RCP8p5/cchanged_mint_rcp85_month_%m.asc 
 TMIN_GRID_PROJECTION_DEFINITION +proj=utm +zone=2 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs 
 TMIN_SCALE_FACTOR                 1.8 
 TMIN_ADD_OFFSET                  32.0 

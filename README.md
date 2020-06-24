@@ -200,5 +200,7 @@ When executed, the model will either create or overwrite the appropriate directo
 
 The user needs to have all of the modules specified in the first code block installed within the active python environment. If any modules are not installed, the can be either downloaded from https://anaconda.org/conda-forge, or if using anaconda, the syntax to have anaconda perform the install can be typed into the conda command prompt.  Note that this model also uses ArcPy which is a proprietary python module requireing the user has an ESRI ArcGIS license (sorry, I dislike ESRI's buisness model too).
 
+Note also that Raw downscaled GCM datasets used to develop the climate scenarios in this model are downloadable through the GitHub release v0.1-alpha of this project as the files are too large to host in the repository
+
 
 If you wish to contact the author I can be reached at cshuler@hawaii.edu

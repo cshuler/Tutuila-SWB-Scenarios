@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><Esri><CreaDate>20200524</CreaDate><CreaTime>08314300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20200524" Time="083143">RasterToASCII ..\input/Gridded_temps_RCP_RCP8p5\file_plus.tif ..\input\Gridded_temps_RCP_RCP8p5\CChanged_maxT_rcp85_month_7.asc</Process></lineage></DataProperties></Esri></metadata>

@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><Esri><CreaDate>20200524</CreaDate><CreaTime>08224600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20200524" Time="082246">RasterToASCII ..\input/Land_use_Soils_data_Scen1\CanCovRas ..\input\Land_use_Soils_data_Scen1\CanCovRas.asc</Process></lineage></DataProperties></Esri></metadata>
