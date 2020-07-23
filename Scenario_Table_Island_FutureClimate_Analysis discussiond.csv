@@ -1,0 +1,8 @@
+,Base,PctCng_6_FutureClimate_RCP45_out,PctCng_7_FutureClimate_RCP85_out,PctCng_11_Future_RCP4.5_Scn1_out,PctCng_12_Future_RCP4.5_Scn2_out,PctCng_13_Future_RCP4.5_Scn3_out,PctCng_14_Future_RCP8.5_Scn1_out,PctCng_15_Future_RCP8.5_Scn2_out,PctCng_16_Future_RCP8.5_Scn3_out,PctCng_8_Future_Present_Scn1_out,PctCng_9_Future_Present_Scn2_out,PctCng_10_Future_Present_Scn3_out
+actual_et,206834.6514,0.6%,1.1%,8.4%,-10.6%,0.9%,9.0%,-10.1%,1.4%,7.7%,-11.1%,0.3%
+direct_net_infiltation,55070.48728,16.5%,11.0%,32.1%,11.4%,28.1%,26.4%,6.0%,22.4%,15.2%,-5.0%,11.1%
+direct_soil_moisture,2396.646575,0.0%,0.0%,194.6%,-43.7%,142.3%,194.6%,-43.7%,142.3%,194.6%,-43.7%,142.3%
+interception,122347.4124,7.8%,4.8%,-1.0%,18.1%,7.2%,-3.7%,14.7%,4.2%,-8.1%,9.6%,-0.5%
+net_infiltration,887392.5116,14.3%,8.3%,13.8%,14.4%,12.9%,8.0%,8.6%,7.3%,-0.2%,0.3%,-0.7%
+rainfall,1437574.345,17.9%,10.9%,17.9%,17.9%,17.9%,10.9%,10.9%,10.9%,0.0%,0.0%,0.0%
+runoff,275503.2554,49.3%,31.3%,54.2%,50.2%,57.9%,35.7%,32.2%,39.0%,3.5%,0.8%,6.3%
