@@ -15,7 +15,7 @@ Present day results indicate approximately 54% of Tutuila’s rainfall infiltrat
 
 
 ## Future Land-Use Scenarios
-### Stakeholders! The comment period for these scenarios is still open. Please email cshuler@hawaii.edu if you have any suggested modifications to the scenarios outlined here. Thank you for your time!
+### Stakeholders! First and foremost, thank you for your contributions to this project! Addtionally, please email cshuler@hawaii.edu if you have any suggested modifications to the scenarios outlined here. Thank you for your time!
 
 &nbsp;
 
