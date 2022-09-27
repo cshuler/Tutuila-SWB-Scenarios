@@ -10,10 +10,11 @@ Present day results indicate approximately 54% of Tutuila’s rainfall infiltrat
 
 &nbsp;
 
-&nbsp;
 
 Find the full peer-reviewed article here:
 https://www.sciencedirect.com/science/article/pii/S2214581821000148
+
+&nbsp;
 
 
 ## Future Land-Use Scenarios
