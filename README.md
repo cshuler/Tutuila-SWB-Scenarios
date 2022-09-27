@@ -12,6 +12,8 @@ Present day results indicate approximately 54% of Tutuila’s rainfall infiltrat
 
 &nbsp;
 
+Find the full peer-reviewed article here:
+https://www.sciencedirect.com/science/article/pii/S2214581821000148
 
 
 ## Future Land-Use Scenarios
@@ -204,3 +206,6 @@ Note also that Raw downscaled GCM datasets used to develop the climate scenarios
 
 
 If you wish to contact the author I can be reached at cshuler@hawaii.edu
+
+Suggested citation for this work: 
+Shuler, C., Brewington, L., & El-Kadi, A. I. (2021). A participatory approach to assessing groundwater recharge under future climate and land-cover scenarios, Tutuila, American Samoa. Journal of Hydrology: Regional Studies, 34, 100785.
